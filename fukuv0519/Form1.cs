@@ -31,5 +31,15 @@ namespace fukuv0519
         {
             button3.Top = 0;
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            button4.BackColor = Color.Red;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "ラベル";
+        }
     }
 }
